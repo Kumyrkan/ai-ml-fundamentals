@@ -30,6 +30,7 @@ After engineering, the models showed significant accuracy improvements:
    source venv/bin/activate
    pip install pandas numpy scikit-learn
    python3 titanic_ml.py
+```
 Check the generated summary.txt for the final audit report.
 
 <a name="russian-description"></a>
