@@ -1,0 +1,55 @@
+ex00/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+# Исключаем твое окружение (и любые стандартные папки)
+piscine1b_w1/
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDEs ---
+# Настройки VS Code и PyCharm
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- System Files (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# --- Data (Optional) ---
+# Если ты не хочешь случайно залить скачанный CSV (хотя по ТЗ мы качаем по ссылке)
+*.csv
