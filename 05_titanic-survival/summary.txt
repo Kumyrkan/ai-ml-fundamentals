@@ -1,0 +1,9 @@
+Titanic ML Raid — Summary
+==============================
+
+                 model  baseline_accuracy  engineered_accuracy  delta
+    LogisticRegression             0.7079               0.8146 0.1067
+RandomForestClassifier             0.6517               0.7978 0.1461
+
+Best model: LogisticRegression
+Best test accuracy: 0.8146
